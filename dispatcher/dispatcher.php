@@ -1,5 +1,13 @@
 <?php
 
+include 'url_driver.php';
+
+define('BASEURL', $baseurl);
+define('MY_APP', $my_app);
+
+FEC_URL_DRIVER::$controller = $default_controller;
+FEC_URL_DRIVER::$action = $default_action;
+
 abstract class Dispatcher extends FEC_URL_Driver {
 
 	static public function start(){
