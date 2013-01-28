@@ -3,7 +3,7 @@
 class Welcome {
 
 	public function index(){
-		echo '<p>Your <b>Welcome</b> controller inside your <b>demo_app</b> is succesfully loaded!</p>';
+		echo '<p>Your <b style="font-size:1.5em">Welcome</b> controller inside your <b style="font-size:1.5em">demo_app</b> is succesfully loaded!</p>';
 
 		$url = FEC_URL_DRIVER::anchor('index.php/my_action');
 
